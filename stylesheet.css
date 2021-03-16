@@ -1,0 +1,57 @@
+body {
+   padding: 10;
+   margin: 10; 
+   font-family: 'Acme', 'Times New Roman', Times, serif;
+}
+
+ul {
+   text-align: right;
+   padding: 0;
+   margin: 0;
+}
+
+li{
+    display: inline-block;
+    padding: 16px;
+    border-left: 1px solid black;
+}
+
+li:hover {
+    background-color: rgba(204, 0, 255, 0.664);
+}
+
+.navlinks {
+    background-color: rgba(204, 0, 255, 0.664);
+    color: black;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.imagebanner {
+    background-image: url("bts-concert.jpg");
+    padding: 200px 0;
+    background-size: cover;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    background-color: none; 
+}
+
+.introduction {
+    text-align: center;
+    color: black;
+    font-size: 1rem;
+}
+
+img{
+    width: 350px;
+    height: 200px;
+}
+
+.ourgroups{
+    text-align: center;
+    margin: 32px;
+}
+
